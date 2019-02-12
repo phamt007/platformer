@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "07f9d3fe-27ed-4985-9ed6-6897ad66dc52",
+            "Value": {
+                "id": "96046b78-0dc7-479e-ab41-36b30124caeb",
+                "resourcePath": "objects\\object_food\\object_food.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0e3a6a35-6d84-4ca7-9a46-73c40d919833",
             "Value": {
                 "id": "1a0975a4-4077-40da-bc33-f0119bb02f66",
@@ -103,11 +111,27 @@
             }
         },
         {
+            "Key": "4fb602bb-9eeb-44bc-977c-b62627908eb6",
+            "Value": {
+                "id": "a7a35f0e-df5f-4be1-a747-507713f2c8ad",
+                "resourcePath": "objects\\game_manager\\game_manager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5ad3e2f9-2955-466c-ab01-46e0226e3c3c",
             "Value": {
                 "id": "8c18e6bd-b907-41c9-bd06-75cc1c80e6f6",
                 "resourcePath": "views\\5ad3e2f9-2955-466c-ab01-46e0226e3c3c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5c3b563e-4ac6-4744-9542-01361532db78",
+            "Value": {
+                "id": "d730ede9-42a7-461a-ab42-a570a49cf01a",
+                "resourcePath": "sprites\\sprite_pickups\\sprite_pickups.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
