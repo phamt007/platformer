@@ -14,6 +14,19 @@ if(y + 10 < other.y)
 	/// @DnDArgument : "objind" "object_snake_die"
 	/// @DnDSaveInfo : "objind" "1216dfc7-f44d-4389-a211-858b9c2eb93a"
 	with(other) instance_change(object_snake_die, true);
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 255C67DA
+	/// @DnDApplyTo : 4fb602bb-9eeb-44bc-977c-b62627908eb6
+	/// @DnDParent : 307292E2
+	/// @DnDArgument : "expr" "150"
+	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "var" "player1_score"
+	with(game_manager) {
+	player1_score += 150;
+	
+	}
 }
 
 /// @DnDAction : YoYo Games.Common.Else
@@ -21,6 +34,19 @@ if(y + 10 < other.y)
 /// @DnDHash : 78463B2F
 else
 {
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 2B0E85B9
+	/// @DnDApplyTo : 4fb602bb-9eeb-44bc-977c-b62627908eb6
+	/// @DnDParent : 78463B2F
+	/// @DnDArgument : "expr" "-1"
+	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "var" "player1_lives"
+	with(game_manager) {
+	player1_lives += -1;
+	
+	}
+
 	/// @DnDAction : YoYo Games.Instances.Change_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 3E422660
